@@ -1,0 +1,32 @@
+name: mvc_structure_gogoapp
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  mvc_pattern: 6.1.3+2
+  http: 0.12.1
+  shared_preferences: 0.5.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/cfg/
+    - assets/img/
+
+
+
+flutter_intl:
+  enabled: true
